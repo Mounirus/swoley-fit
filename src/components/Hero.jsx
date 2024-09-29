@@ -14,7 +14,7 @@ const Hero = () => {
           unbelievably swolenormous
         </span>{" "}
         and accept all risks of becoming the local{" "}
-        <span className="text-blue-400 font-medium">mass montrosity</span>,
+        <span className="text-blue-400 font-medium">mass monstrosity</span>,
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
       <button className="px-8 py-4 rounded-md border-solid border-[2px] border-blue-400 bg-slate-950 blueShadow duration-200">
