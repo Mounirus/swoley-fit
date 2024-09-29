@@ -17,11 +17,9 @@ function Header({ index, title, description }) {
   );
 }
 
-export default function Generator() {
+export default function Generator({poison, setPoison, muscles, setMuscles, goal,setGoal,updateWorkout}) {
   const [showModal, setshowModal] = useState(false);
-  const [poison, setPoison] = useState("individual");
-  const [muscles, setMuscles] = useState([]);
-  const [goal, setGoal] = useState("strength_power");
+  
 
   function toggleModal() {
     setshowModal(!showModal);
@@ -140,7 +138,7 @@ export default function Generator() {
           );
         })}
       </div>
-      <Button text={"Formulate"} />
+      <Button func={updateWorkout} text={"Formulate"} />
     </SectionWrapper>
   );
 }

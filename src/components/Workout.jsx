@@ -1,4 +1,4 @@
-const Workout = () => {
+const Workout = ({workout}) => {
   return (
     <div>
       Workout
