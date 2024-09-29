@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const Hero = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-10 text-center max-w-[800px] w-full mx-auto p-4">
@@ -17,9 +19,7 @@ const Hero = () => {
         <span className="text-blue-400 font-medium">mass monstrosity</span>,
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
-      <button className="px-8 py-4 rounded-md border-solid border-[2px] border-blue-400 bg-slate-950 blueShadow duration-200">
-        <p>Accept & Begin</p>
-      </button>
+      <Button text={"Accept & Begin"} />
     </div>
   );
 };
