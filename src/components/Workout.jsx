@@ -1,7 +1,7 @@
 import ExerciseCard from "./ExerciseCard";
 import SectionWrapper from "./SectionWrapper";
 
-const Workout = ({ workout, id }) => {
+const Workout = ({ workout}) => {
   return (
     <SectionWrapper
       id={'workout'}
